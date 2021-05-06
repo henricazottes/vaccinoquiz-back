@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stats",
+  "info": {
+    "name": "Stat"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nb_attemps": {
+      "type": "integer"
+    },
+    "nb_success": {
+      "type": "integer"
+    },
+    "question": {
+      "model": "question"
+    }
+  }
+}
